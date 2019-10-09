@@ -5,8 +5,8 @@ using namespace std;
 
 int main(int argc, char const *argv[]) {
   cout << "Enter a number:" << '\n';
-  int age;
-  cin >> age;
-  cout << "You entered " << age << "\n";
-  return age;
+  int number;
+  cin >> number;
+  cout << "You entered " << number << "\n";
+  return number;
 }
