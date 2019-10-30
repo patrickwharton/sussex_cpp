@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-rm question1.csv
-echo "n,alpha,mean" | tee -a question1.csv
+echo "n,alpha,mean" > random.csv
+echo "Running..."
 for i in {1..10000..2}
 do
   # echo -n "Rolled "
-  ./random $i | cat | tee -a question1.csv
+  ./random $i >> random.csv
   #sleep 1
 done
 echo "Preparing Graph..."

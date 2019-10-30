@@ -5,7 +5,7 @@ import seaborn as sns
 import sys
 
 def question1():
-    filename = "question1.csv"
+    filename = "random.csv"
 
     df = pd.read_csv(filename)
     x=np.linspace(1,max(df['n'])+1,100)
@@ -20,7 +20,6 @@ def question1():
     plt.xlim(1, max(df['n'])+1)
 
     ax.legend()
-    print("As n tends to infinity, the variance clearly tends towards 1/12")
     plt.show()
     return
 

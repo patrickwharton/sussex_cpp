@@ -14,7 +14,6 @@ int main(int argc, char const *argv[]) {
   int N;
   if (argc == 2) {
     N = atoi(argv[1]);
-    // cout << N << "\n";
     if (!(N > 0)) {
       cout << "invalid input\n";
       return 1;
@@ -23,7 +22,6 @@ int main(int argc, char const *argv[]) {
   else {
     cout << "How many random numbers would you like to generate?" << '\n';
     cin >> N;
-    // cout << N << "\n";
   }
 
   // initialises a vector and stores N random doubles between 0 and 1

@@ -24,10 +24,6 @@ int main(int argc, char const *argv[]) {
     return 1;
   }
 
-  // initialise win/loss totals
-  int total_wins = 0;
-  int total_losses = 0;
-
   // initialise random seed
   srand(time(NULL));
 
@@ -77,7 +73,6 @@ int main(int argc, char const *argv[]) {
     // game finished
     // add total to win/loss counts
     if (win == 1) {
-      total_wins++;
       // add number of dice rolls to win_rolls vector
       if (win_rolls.size() > number_of_dice_rolls) {
         // if the vector is big enough already just increment
@@ -93,7 +88,6 @@ int main(int argc, char const *argv[]) {
       }
     }
     else if (loss == 1) {
-      total_losses++;
       // add number of dice rolls to loss_rolls vector
       if (loss_rolls.size() > number_of_dice_rolls) {
         // if the vector is big enough already just increment
@@ -113,7 +107,7 @@ int main(int argc, char const *argv[]) {
       return 1;
     }
   }
-  // csv output with headers
+  // csv style output with headers
   cout << "count,dice_rolls,Result\n";
   for (int i = 1; i < win_rolls.size(); i++) {
     cout << win_rolls.at(i) << "," << i << ",Win\n";
