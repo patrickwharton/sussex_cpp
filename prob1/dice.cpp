@@ -41,14 +41,19 @@ int main(int argc, char *argv[]) {
     score_count.at(score) += 1;
   }
 
+  // outputs results to console
+  // cout << "For " << total_rolls << " dice rolls\n";
+  // for (size_t i = 2; i <= 12; i++) {
+  //   cout << i << "\t" << score_count.at(i) << "\n";
+  // }
+
   // creates filename
   string filename = string("dice_") + argv[1] + ".dat";
-  // cout << filename << endl;
 
   // redirects output to filename
   freopen(filename.c_str(), "w", stdout);
 
-  // outputs results
+  // outputs results to file
   for (size_t i = 2; i <= 12; i++) {
     cout << i << "\t" << score_count.at(i) << "\n";
   }

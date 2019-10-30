@@ -50,7 +50,7 @@ int main(int argc, char const *argv[]) {
   }
   variance /= N;
 
-  cout << variance << " is the variance, and the mean is " << mean << endl;
+  cout << N << "," << variance << "," << mean << endl;
 
   return 0;
 }
