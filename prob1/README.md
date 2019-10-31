@@ -3,52 +3,6 @@ Week 5, 2019
 
 Patrick Wharton
 
-## List of Files
-Report.pdf
-
-README.md
-
-### Question 1
-random.cpp
-
-random
-
-question1.sh
-
-question1.py
-
-random.csv
-
-### Question 2
-dice.cpp
-
-dice
-
-question2.sh
-
-question2.py
-
-dice_100.dat
-
-dice_500.dat
-
-dice_1000.dat
-
-dice_10000.dat
-
-dice_50000.dat
-
-### Question 3
-craps.cpp
-
-craps
-
-question3.sh
-
-question3.py
-
-craps.csv
-
 
 ## Question 1
 To run my attempt at question1 from start to finish (random number gen), please execute this command in a bash terminal:
@@ -109,3 +63,50 @@ where <integer> is the number of trials (in this case, 10000)
 while the correct syntax for question3.py is:
   python3 question3.py
 when in the same directory as the outputs from craps.cpp
+
+
+## List of Files
+Report.pdf
+
+README.md
+
+### Question 1
+random.cpp
+
+random
+
+question1.sh
+
+question1.py
+
+random.csv
+
+### Question 2
+dice.cpp
+
+dice
+
+question2.sh
+
+question2.py
+
+dice_100.dat
+
+dice_500.dat
+
+dice_1000.dat
+
+dice_10000.dat
+
+dice_50000.dat
+
+### Question 3
+craps.cpp
+
+craps
+
+question3.sh
+
+question3.py
+
+craps.csv
