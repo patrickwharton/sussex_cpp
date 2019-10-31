@@ -2,9 +2,38 @@
 Week 5, 2019
 Patrick Wharton
 
+## List of Files
+Report.pdf
+README.md
+
+### Question 1
+random.cpp
+random
+question1.sh
+question1.py
+random.csv
+
+### Question 2
+dice.cpp
+dice
+question2.sh
+question2.py
+dice_100.dat
+dice_500.dat
+dice_1000.dat
+dice_10000.dat
+dice_50000.dat
+
+### Question 3
+craps.cpp
+craps
+question3.sh
+question3.py
+craps.csv
+
 
 ## Question 1
-To see my attempt at question1 (random number gen), please execute this command in a bash terminal:
+To run my attempt at question1 from start to finish (random number gen), please execute this command in a bash terminal:
   ./question1.sh
 (may require "chmod +x question1.sh")
 
@@ -21,7 +50,7 @@ when in the same directory as the outputs from random.cpp
 
 
 ## Question 2
-To see my attempt at question2 (sum of two dice rolls), please execute this command in a bash terminal:
+To run my attempt at question2 from start to finish (sum of two dice rolls), please execute this command in a bash terminal:
   ./question2.sh
 (may require "chmod +x question2.sh")
 
@@ -38,7 +67,7 @@ when in the same directory as the outputs from dice.cpp (will only work for valu
 
 
 ## Question 3
-To see my attempt at question3 (multiple craps games simulator), please execute this command in a bash terminal:
+To run my attempt at question3 from start to finish (multiple craps games simulator), please execute this command in a bash terminal:
   ./question3.sh
 (may require "chmod +x question3.sh")
 

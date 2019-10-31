@@ -14,7 +14,7 @@ def question3():
     df = pd.read_csv(filename)
 
     new = df[df['dice_rolls'] > 20].groupby('Result')['count'].sum().reset_index()
-    new['dice_rolls'] = "20+"
+    new['dice_rolls'] = "21+"
 
 
     grouped = df[df['dice_rolls'] <= 20].append(new, ignore_index=True, sort=True)
@@ -76,7 +76,7 @@ def question3():
             ratio.append(1)
 
     ax2 = sns.lineplot(x=range(1, len(ratio)+1), y=ratio)
-    xlabels = [str(i) for i in range(1, len(ratio))] + ['20+']
+    xlabels = [str(i) for i in range(1, len(ratio))] + ['21+']
     ax2.set_xticklabels(xlabels)
     ax2.set_xticks([i for i in range(1, len(ratio)+1)])
     ax2.set_xlim(0,len(ratio)+1)
