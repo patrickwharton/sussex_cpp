@@ -1,34 +1,52 @@
 # Intro to C++, Problem Sheet 1
 Week 5, 2019
+
 Patrick Wharton
 
 ## List of Files
 Report.pdf
+
 README.md
 
 ### Question 1
 random.cpp
+
 random
+
 question1.sh
+
 question1.py
+
 random.csv
 
 ### Question 2
 dice.cpp
+
 dice
+
 question2.sh
+
 question2.py
+
 dice_100.dat
+
 dice_500.dat
+
 dice_1000.dat
+
 dice_10000.dat
+
 dice_50000.dat
 
 ### Question 3
 craps.cpp
+
 craps
+
 question3.sh
+
 question3.py
+
 craps.csv
 
 
