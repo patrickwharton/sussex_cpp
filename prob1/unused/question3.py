@@ -81,9 +81,9 @@ def question3():
     ax2.set_xticks([i for i in range(1, len(ratio)+1)])
     ax2.set_xlim(0,len(ratio)+1)
     ax2.set_ylim(0,1)
-    ax2.set_xlabel("Number of dice rolls")
+    ax2.set_xlabel("Game Length (dice rolls)")
     ax2.set_ylabel("Chance of winning")
-    ax2.set_title("Chances of winning craps as the game length increases")
+    ax2.set_title("Ratio of craps games won and total games at different game lengths")
     plt.show()
 
 

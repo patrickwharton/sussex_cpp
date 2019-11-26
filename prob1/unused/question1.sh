@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-echo "n,alpha,mean" > random.csv
 echo "Running..."
+echo "n,alpha,mean" > random.csv
 for i in {1..10000..2}
 do
   # echo -n "Rolled "

@@ -33,7 +33,7 @@ int main(int argc, char const *argv[]) {
 
   // calculates sum of randomly generated numbers
   double sum = 0;
-  for (auto i = random_numbers.begin(); i != random_numbers.end(); i++) {
+  for (vector<double>::iterator i = random_numbers.begin(); i != random_numbers.end(); i++) {
     sum += *i;
   }
 
@@ -43,7 +43,7 @@ int main(int argc, char const *argv[]) {
   // calculates sum of the squared differences
   // before divided to get the variance outside the loop
   double variance;
-  for (auto i = random_numbers.begin(); i != random_numbers.end(); i++) {
+  for (vector<double>::iterator i = random_numbers.begin(); != < random_numbers.end(); i++) {
     variance += pow((*i - mean), 2);
   }
   variance /= N;
