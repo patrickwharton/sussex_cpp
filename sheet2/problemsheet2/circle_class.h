@@ -10,9 +10,11 @@ class Circle {
     double xpos, ypos, radius;
   public:
     // constructors
-    // Circle(double x, double y, double r) {xpos=x; ypos=y; radius=r;}
-    // Circle() {xpos=0.0; ypos=0.0; radius=0.0;}
-    Circle(double x=0.0, double y=0.0, double r=0.0) {xpos=x; ypos=y; radius=r;}
+    Circle(double x, double y, double r) {xpos=x; ypos=y; radius=r;}
+    Circle() {xpos=0.0; ypos=0.0; radius=0.0;}
+
+    // copy constructor
+    Circle(const Circle& c) {xpos=c.getX(); ypos=c.getY(); radius=c.getRadius();}
 
     // public functions
     // getters
@@ -39,6 +41,13 @@ class Circle {
       os << "radius = " << c.radius << " at (x,y) = (" << c.xpos << "," << c.ypos << ")";
       return os;
     }
+
+    // // destructor
+    // not needed in this example, only needed for things such as vectors,
+    // which store the length and address of the head
+    // ~Circle() {
+    //   delete[]addr;
+    // }
 
 };
 
